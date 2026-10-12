@@ -17,7 +17,7 @@
 <body>
   <div class="nav"><a href="index.html">Unlock Earth</a> · <a href="terms.html">Terms of Service</a></div>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: August 8, 2026 · SP Karlsen Invest</p>
+  <p class="updated">Last updated: October 12, 2026 · SP Karlsen Invest</p>
 
   <p>Unlock Earth connects to your Strava account, checks your GPS activities against municipality (or equivalent local administrative area) boundaries, and permanently records which municipalities you've covered enough distance in to "unlock."</p>
 
@@ -42,13 +42,25 @@
     <li>To show you your own collection, progress, and achievements.</li>
     <li>To keep your Strava activity history in sync automatically, including while the app is closed, via scheduled background jobs.</li>
   </ul>
-  <p>We do not use your data for advertising, and we do not sell your data to anyone.</p>
+  <p>We do not use your Strava or unlock data for advertising, and we do not sell your data to anyone.</p>
+
+  <h2>Advertising</h2>
+  <p>The app shows ads served by <strong>Google AdMob</strong>, as a banner and as an occasional clearly labelled "Ad" in your list of unlocked places. We do not request tracking permission and do not enable personalized advertising, so ads you see are non-personalized (contextual) rather than targeted using an advertising identifier or your activity across other apps. AdMob may still process technical information (such as a device or app identifier and general, non-precise location such as country) to serve and measure ads, under Google's own privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Your Strava activity, GPS routes, and unlocks are never shared with AdMob or used to target ads.</p>
+
+  <h2>Crash and performance reports</h2>
+  <p>To find and fix bugs we use <strong>Sentry</strong>. When the app crashes, freezes or hits an error, it sends a report containing technical information: the app version, your device model and operating system version, a description of what went wrong (stack trace), and your Unlock Earth account identifier so we can tell how many people are affected. These reports do not contain your GPS routes, Strava tokens or the contents of your activities.</p>
+
+  <h2>Push notifications</h2>
+  <p>If you allow notifications, the app stores a push notification token for your device so we can send you messages such as a new unlock, a finished sync, or an announcement. Notifications are delivered through <strong>Expo's push notification service</strong> and, on Android, <strong>Google's Firebase Cloud Messaging</strong>. The token is used only to send you notifications and is deleted with your account. You can turn notifications off at any time in your device's settings.</p>
 
   <h2>Who we share this with</h2>
   <p>We do not share your personal data with third parties, except:</p>
   <ul>
     <li><strong>Strava</strong>, to authenticate and fetch your activity data — inherent to how the app works, since you're connecting your own Strava account.</li>
     <li><strong>Our infrastructure providers</strong> (currently Supabase, for database and backend hosting), who process data on our behalf under their own data processing terms.</li>
+    <li><strong>Google AdMob</strong>, to serve non-personalized ads, as described above.</li>
+    <li><strong>Sentry</strong>, which receives crash and error reports as described above.</li>
+    <li><strong>Expo</strong> and, on Android, <strong>Google Firebase Cloud Messaging</strong>, which deliver push notifications to your device.</li>
   </ul>
   <p>We do not sell data to data brokers, advertisers, or anyone else.</p>
 
@@ -56,7 +68,7 @@
   <p>Your data is stored in a Supabase-hosted database in the EU (Paris, <code>eu-west-3</code> region).</p>
 
   <h2>How long we keep your data</h2>
-  <p>Your unlocked municipalities, activities, and GPS routes are kept indefinitely so your collection remains available to you — unlocks are permanent even if the original Strava activity is later deleted or hidden on Strava's side. If you disconnect your Strava account, we stop syncing new data but keep your existing unlocks. If you delete your account, everything is permanently removed.</p>
+  <p>Your unlocked municipalities, activities, and GPS routes are kept so your collection remains available to you. If you delete an activity on Strava, we remove the data derived from it, including the unlock it earned, automatically. If you disconnect your Strava account, we stop syncing new data but keep your existing unlocks. If you delete your account, everything is permanently removed.</p>
 
   <h2>Your rights</h2>
   <ul>
